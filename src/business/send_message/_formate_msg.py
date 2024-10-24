@@ -31,7 +31,7 @@ async def _formate_msg(data_msg):
 
     try:
 
-        msg = f"📌 Найден ключевое слово <code>{data_msg['search_word']}</code>\n\n" \
+        msg = f"📌 Найдено ключевое слово <code>{data_msg['search_word']}</code>\n\n" \
               f"Дата написания: <code>{message_date}</code>\n\n" \
               f"Чат: <code>{data_msg['chat_title']}</code>\n\n" \
               f"Подписаться: <a href=''>{data_msg['link_chat']}</a>\n\n" \

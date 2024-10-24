@@ -11,11 +11,11 @@ sessions_path = os.path.join(os.path.dirname(__file__), 'src', 'telegram_user', 
 load_dotenv(dotenv_path)
 
 # Сколько старых ID от сообщений держать в истории
-LONG_OLD_MSG_ID = 40
+LONG_OLD_MSG_ID = 50
 
-DEVELOPER = 1422194909
+DEVELOPER = 5982144791
 
-ADMIN = ['1422194909']
+ADMIN = ['5982144791']
 
 TOKEN = os.getenv('TOKEN')
 
@@ -31,6 +31,6 @@ LOGGER = True
 
 DEEP_SCRAP = 50
 
-ONE_START = True
+ONE_START = False
 
 MOKE_TG_USER = False
